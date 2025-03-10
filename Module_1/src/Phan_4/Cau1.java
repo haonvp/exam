@@ -19,7 +19,6 @@ Yêu cầu:
 public class Cau1 {
     public static void maxMin(int number[]) {
         int maxNumb = number[0];
-        int tempNumb = 0;
         int minNumb = number[0];
         for (int i = 1; i < number.length; i++) {
             if (number[i] > maxNumb) {
